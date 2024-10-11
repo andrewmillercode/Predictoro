@@ -1,0 +1,40 @@
+:root {
+  
+
+  font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 0.05em;
+  
+  --c0:#062926;
+  --c1:#018175;
+  --c2Lighter:#12c498;
+  --c2:#10b68d;
+  --c3:#5ed179;
+  --c4:#FEE3B2;
+  --c5Lighter: #2d2d2d;
+  --c5:#1c1c1c;
+  --c6:#f13e38;
+  --c7:rgb(224, 200, 68);
+  --c8:rgb(22, 38, 51);
+  --c9:white;
+  --c10:#fafaf6;
+  --rareSpin:rgb(93, 93, 93);
+
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--c0);
+  background: var(--c10);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
